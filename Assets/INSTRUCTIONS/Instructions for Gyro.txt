@@ -1,0 +1,11 @@
+Use an android phone preferably, connected to PC via USB cable. If asked for a connection type, choose ‘File Transfer’
+Install ‘Unity Remote’’ on your phone.
+In phone settings, search ‘’about device’, and tap the device name 7 times to enable developer mode.(may be different depending on what phone you use)
+In Phone settings, search ‘debugging’, and enable ‘USB Debugging’
+In Unity, Change ‘game’ to simulator, and choose a resolution similar to your phone(we used ‘Punch Hole Center 1440 x 3088’)
+In Unity, In Build Settings, change from ‘Windows’’ to ‘Android’(or Iphone), and press switch
+In unity, Project Settings, Editor, change device from ‘none’ to ‘any android device’(or your phone if it shows up)
+In Unity, Project settings, player, ,change input system to both, since it uses the old input system
+Have ‘Unity Remote’’ open when starting the game
+
+Vibration doesn’t work unless you run the build apparently.. If it says ‘set up Android SDK path to….’ it wont work on that pc, choose another one :(

@@ -21,11 +21,11 @@ public class GyroScript : MonoBehaviour
 
         transform.eulerAngles = targetEulerAngles;
 
-        // This uses the new input system to detect 'k'. Trying to use it for touch input didn't work, so have to use the old input system below.
+        //Trying to use new input system for touch input didn't work, so have to use the old input system below.
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
-            print("Test");
+            print("Vibrating");
             Handheld.Vibrate();
         }
     }
